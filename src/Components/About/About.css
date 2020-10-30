@@ -1,0 +1,39 @@
+.about {
+    position: relative;
+    height: 700px;
+    overflow: hidden;
+    
+}
+.about::before {
+    content: "";
+    position: absolute;
+    background-image: linear-gradient(to right, lightgrey,gray);
+    height: 500px;
+    top: 0;
+    width: 200%;
+    margin-top: -100px;
+    margin-left: -50px;
+    height: 100%;
+    transform: rotate(-3deg);
+}
+
+.skill__section {
+    position: relative
+}
+.skills p {
+    margin: 10px 0px;
+}
+.skills span {
+    background-color: gray;
+    color: white;
+    margin: 10px;
+    padding: 3px 8px;
+}
+@media (max-width:768px){
+    .about {
+        height: 820px;
+    }
+    .about_status{
+        margin-top: 5px;
+    }
+}

@@ -1,0 +1,39 @@
+.header {
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.inner__header {
+    
+    overflow: hidden;
+    height: 100%;
+    overflow: hidden;
+   
+}
+.header::before {
+    content: "";
+    background-image: linear-gradient(to left ,#111111ab,#1111114d),url(../../images/profile/coverPhoto2.jpg);
+    background-repeat: no-repeat;
+    margin-top: -80px;
+    position: absolute;
+    margin-left: -20px;
+    overflow: hidden;
+    top: 0;
+    width: 200%;
+    height: 100%;
+    transform: rotate(-3deg);
+    
+    
+}
+
+@media(max-width:768px){
+    .header {
+        height: 170vh;
+        overflow: hidden;
+    }
+    .header::before {
+        margin-left: -30px;
+    }
+}
