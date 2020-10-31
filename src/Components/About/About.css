@@ -1,7 +1,11 @@
+.about_page {
+    background-color: #f9f9f9;
+}
 .about {
     position: relative;
     height: 700px;
     overflow: hidden;
+    
     
 }
 .about::before {
@@ -18,17 +22,32 @@
 }
 
 .skill__section {
-    position: relative
+   
 }
-.skills p {
-    margin: 10px 0px;
+.skills_page {
+    position: relative;
+    overflow: hidden;
+    
+    background-color: #ece7e7;
+    margin-bottom: 30px;
+}
+
+.skills div {
+    margin-bottom: 10px;
+}
+.skills div span {
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 14px;
 }
 .skills span {
     background-color: gray;
     color: white;
-    margin: 10px;
-    padding: 3px 8px;
+    margin: 10 20px;
+    padding: 3px 7px;
+    border-radius: 4px;
 }
+
 @media (max-width:768px){
     .about {
         height: 820px;

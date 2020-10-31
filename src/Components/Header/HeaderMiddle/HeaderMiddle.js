@@ -10,12 +10,12 @@ const HeaderMiddle = () => {
         <section className="header__middle">
             <div className="container align-center">
                 <div className="row">
-                    <div className="col-md-6 col-sm-6 mr-auto">
+                    <div className="col-md-6 col-sm-6 mr-auto animated bounceInDown" >
                         <img className="img-fluid profile__image" src={profileImg} alt="" />
                     </div>
-                    <div className="col-md-6 col-sm-6 d-flex flex-column justify-content-center status">
+                    <div className="col-md-6 col-sm-6 d-flex flex-column justify-content-center mt-0 status">
                         <h2>Hi,</h2>
-                        <h4 style={{ color: 'black', fontWeight: 'bold' }}>I am Tamim sakar and </h4>
+                        <h4 style={{ color: 'black', fontWeight: 'bold',letterSpacing:'2px' }}>I am Tamim sakar and </h4>
                         <h4>I am a proffesional <Typed
                             strings={['web Designer', 'Web developer']}
                             typeSpeed={70}
